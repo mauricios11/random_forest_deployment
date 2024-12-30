@@ -1,0 +1,7 @@
+# the environment
+env/
+# python things
+__pycache__/
+*.pyc
+# macos things
+.DS_Store
