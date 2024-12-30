@@ -1,8 +1,10 @@
-# Random Forest + XGBoost Stacking Deployment for Streamlit
+# *Random Forest* + *XGBoost Stacking* Deployment for Streamlit
 
-This project showcases the deployment of a Stacking model that combines Random Forest and XGBoost for predicting income levels based on demographic and economic features. The deployment is built using Streamlit, offering an interactive and user-friendly interface to make predictions.
+This project showcases the deployment of a Stacking model that combines **Random Forest** and **XGBoost** for predicting income levels based on demographic and economic features. The deployment is built using Streamlit, offering an interactive and user-friendly interface to make predictions.
 
-* 🎯 **Objective**: The primary goal of this project is to deploy a robust machine learning model for predicting whether an individual earns more than 50K USD annually based on input features like age, marital status, education, and hours worked per week. The project demonstrates the entire pipeline, from training the stacking model to deploying it on Streamlit.
+* 🎯 **Objective**: The primary goal of this project is to deploy a robust machine learning model for predicting whether an individual earns more than 50K USD annually based on input features like *age, marital status, education, etc.*. The project demonstrates the entire pipeline, from training the stacking model to deploying it on Streamlit.
+
+* To use the app enter to the next link: "the link"
 
 ## Description:
 
