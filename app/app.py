@@ -5,11 +5,14 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 from utils import get_options, translate_pred
 
 # modelo
-pipeline = joblib.load('./app/model/stacking_optimized_0.pkl')
+
+model_path = os.path.join(os.path.dirname(__file__), 'models', 'stacking_optimized_0.pkl')
+pipeline = joblib.load(model_path)
 
 #título
 st.title('Income Prediction App')
