@@ -16,28 +16,7 @@ This project showcases the deployment of a Stacking model that combines **Random
 
 🛠️ Tools and Technologies: *Python, Streamlit, Scikit-learn, XGBoost, Joblib, Git LFS (Large File Storage)*
 
-### 🚧 Challenges Faced
-
-During the project, we encountered a notable challenge: Large Model File Size 📂
-
-* The trained model file (stacking_optimized_0.pkl) exceeded 285 MB, surpassing GitHub's 100 MB file size limit. This caused push operations to fail with errors such as:
-
-```File app/model/stacking_optimized_0.pkl is 285.17 MB; this exceeds GitHub's file size limit of 100.00 MB```
-
-To solve this I configured Git LFS (Large File Storage) to handle the large model file efficiently:
-
-Installed Git LFS with:
-
-```git lfs install
-
-#Configured Git LFS to track the model file:
-
-git lfs track "app/model/stacking_optimized_0.pkl"
-
-#Added and pushed the file successfully
-```
-
-📁 Project Structure
+📁 Project Structure:
 
 ```project-folder/
 |
