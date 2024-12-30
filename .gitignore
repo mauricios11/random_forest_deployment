@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 # macos things
 .DS_Store
+

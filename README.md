@@ -4,7 +4,7 @@ This project showcases the deployment of a Stacking model that combines **Random
 
 * 🎯 **Objective**: The primary goal of this project is to deploy a robust machine learning model for predicting whether an individual earns more than 50K USD annually based on input features like *age, marital status, education, etc.*. The project demonstrates the entire pipeline, from training the stacking model to deploying it on Streamlit.
 
-* To use the app enter to the next link: "the link"
+* To use the app enter to the next link: "[app income classification](https://mauricios11-random-forest-deployment.streamlit.app/)"
 
 ## Description:
 
