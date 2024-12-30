@@ -1,16 +1,17 @@
 # *Random Forest* + *XGBoost Stacking* Deployment for Streamlit
 
-This project showcases the deployment of a Stacking model that combines **Random Forest** and **XGBoost** for predicting income levels based on demographic and economic features. The deployment is built using Streamlit, offering an interactive and user-friendly interface to make predictions.
+This project showcases the deployment of a Stacking model that combines **Random Forest** and **XGBoost** for predicting income levels based on demographic and economic features. The deployment is built using Streamlit.
 
-* 🎯 **Objective**: The primary goal of this project is to deploy a robust machine learning model for predicting whether an individual earns more than 50K USD annually based on input features like *age, marital status, education, etc.*. The project demonstrates the entire pipeline, from training the stacking model to deploying it on Streamlit.
+* 🎯 **Objective**: Deploy a robust ML model for predicting $\rightarrow$ whether an individual earns more than 50K USD annually based on input features like *age, marital status, education, etc.*.
+* The project demonstrates the entire pipeline: [project repo](https://github.com/mauricios11/income_classif_eda), from the entire EDA, then impute missing values, then balance the target column, and finally training a stacking model to deploying it on Streamlit.
 
-* To use the app enter to the next link: "[app income classification](https://mauricios11-random-forest-deployment.streamlit.app/)"
+* To use the app enter to the next link: "[Income Prediction APP ](https://mauricios11-random-forest-deployment.streamlit.app/)"
 
 ## Description:
 
-* **Stacking Model**: Combines the predictive power of Random Forest and XGBoost to improve overall performance.
+* **Stacking Model**: Combines the fusion of the power fo two models: *Random Forest* and *XGBoost* to improve overall performance.
 
-* **Streamlit Frontend**: A simple and interactive web interface for users to input data and receive predictions.
+* **Streamlit Frontend**: Just a simple web interface for users to input data and receive predictions.
 
 * **Probability Outputs**: Displays both the predicted class *(income >50K or <=50K)* and the associated probabilities.
 
@@ -18,25 +19,22 @@ This project showcases the deployment of a Stacking model that combines **Random
 
 📁 Project Structure:
 
-```project-folder/
+```
+project-folder/
 |
 |-- app/
-|   |-- assets/                 # Static assets (e.g., images, stylesheets)
-|   |-- model/                  # Contains the trained stacking model (tracked with Git LFS)
+|   |-- model/                  # trained stacking model (tracked with Git LFS)
 |   |   |-- stacking_optimized_0.pkl
-|   |-- app.py                  # Main Streamlit app script
-|   |-- utils.py                # Helper functions (e.g., model predictions)
-|   |-- requirements.txt        # Python dependencies
-|
-|-- env/                        # Local environment (not included in GitHub)
-|-- README.md                   # Project description and setup guide
+|   |-- app.py                  # main streamlit script
+|   |-- utils.py                # helper functions (model predictions)
+|   |-- requirements.txt        # dependencies
 ```
 
 ### To Run Locally
 
 Clone the repository:
 
-`git clone <repository-url>`
+`git clone https://github.com/mauricios11/random_forest_deployment.git`
 
 Navigate to the project folder. Then install dependencies:
 
